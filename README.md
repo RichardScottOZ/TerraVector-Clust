@@ -26,7 +26,9 @@ examination of the robustness of clusters with synthetic noise contamination and
 
 - Title: A GNSS-velocity clustering method applicable at local to global scales
 - Authors: Atsushi Takahashi (RIKEN, Center for Advanced Intelligence Project), Keisuke Yano (The Institute of Statistical Mathematics), and Masayuki Kano (Tohoku University)
-- Journal: in revision
+- Year: 2025
+- Journal: Journal of Geophysical Research: Solid Earth
+- DOI: http://dx.doi.org/10.1029/2024JB029689
 
 ## Demo
 TerraVector-Clust provides the dengrogram, the map view with given number of clusters, leave-one-out stability checks.
@@ -48,11 +50,13 @@ We provide the python implementation.
 
 The program requires the following packages:
 - numpy　
-- pandas 
-- pygmt
+- pandas
+- cartopy
 - scipy
 - scikit-learn
 - umap (optional)
+- cmocean (optional)
+- rasterio (optional)
 
 ## Usage
 The ipynb file demo_TerraVectorClust_v3.ipynb includes how to use our method.
@@ -66,4 +70,4 @@ The dataset folder include datasets used in our study. The following is a list o
 - Lin,C.-W., Lu,S., & Chen,W.-S. (2012). Active fault map of Taiwan. Special publication of the Central Geological Survey.
 
 ## Responsibility
-This paper is written by Keisuke Yano and checked by Astushi Takahashi and Masayuki Kano.
+This page is written by Keisuke Yano and checked by Astushi Takahashi and Masayuki Kano.
